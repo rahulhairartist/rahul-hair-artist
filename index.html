@@ -144,6 +144,30 @@ document.getElementById("bookingForm").addEventListener("submit", function(e){
   const text=`Hello Rahul Hair Artist!%0A%0AAppointment Request%0AName: ${encodeURIComponent(name)}%0AMobile: ${encodeURIComponent(phone)}%0AService: ${encodeURIComponent(service)}%0ADate: ${encodeURIComponent(date)}%0ATime: ${encodeURIComponent(time)}%0ANote: ${encodeURIComponent(message || "None")}`;
   window.open(`https://wa.me/${WHATSAPP_NUMBER}?text=${text}`,"_blank");
 });
-</script>
+</script><!-- Contact Section -->
+<section id="contact" style="padding:60px 20px;text-align:center;background:#111;color:white;">
+  <h2 style="color:#d9a441;font-size:32px;">Contact & Booking</h2>
+
+  <p style="font-size:18px;margin:20px 0;">
+    Rahul Hair Artist – Dhema Bazar
+  </p>
+
+  <p style="font-size:18px;">
+    📞 <strong>9670696328</strong>
+  </p>
+
+  <div style="margin-top:25px;">
+    <a href="tel:+919670696328"
+       style="display:inline-block;padding:14px 25px;margin:8px;background:#d9a441;color:#111;border-radius:8px;font-weight:bold;">
+       📞 Call Now
+    </a>
+
+    <a href="https://wa.me/919670696328"
+       target="_blank"
+       style="display:inline-block;padding:14px 25px;margin:8px;background:#25D366;color:white;border-radius:8px;font-weight:bold;">
+       💬 WhatsApp
+    </a>
+  </div>
+</section>
 </body>
 </html>
